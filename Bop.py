@@ -70,12 +70,7 @@ month = _month_[str(datetime.now().month)]
 year = datetime.now().year
 date_and_year = f"{str(date)}\x1b[1;90m-\x1b[1;92m{str(month)}\x1b[1;90m-\x1b[1;92m{str(year)}"
 
-def Banner():
-    if 'Linux' in sys.platform.capitalize():
-        os.system('clear')
-        os.system("f'xdg-open https://www.facebook.com/profile.php?id=61578248083866")
-      
-    else:
+
         os.system('cls')
     def linex():print(Panel(f'''[bold Pink]   
 ██████╗ ███████╗██╗   ██╗██╗
@@ -267,7 +262,7 @@ def main():
     else:
         user_ids = generate_user_ids()
 
-    linex()
+    
     print(f'{x} OK/CP IDS WILL BE SAVED IN {xy} /SDCARD')
     line()
     print(f'{x} TOTAL UID {xy} {len(user_ids)}')
@@ -283,4 +278,5 @@ def main():
     main()
 
 if __name__ == '__main__':
+
     main()
