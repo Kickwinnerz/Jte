@@ -242,7 +242,8 @@ def main():
 \x1b[38;5;77m──────────────────────────────────────────────                 
 \x1b[38;5;78mMADE BY\x1b[38;5;222m➤  \x1b[38;5;78m DEVI KING
 \x1b[38;5;79mFACEBOOK  \x1b[38;5;222m➤  \x1b[38;5;79m DEVI ONFIRE ☠ 🚩 
-\x1b[38;5;115mFACEBOOK ID  \x1b[38;5;222m➤   \x1b[38;5;115mhttps://www.facebook.com/profile.php?id=61553924229187'''')
+\x1b[38;5;115mFACEBOOK ID  \x1b[38;5;222m➤   \x1b[38;5;115mhttps://www.facebook.com/profile.php?id=61553924229187
+                                   '''')
     print(f'{op1} CLONE 2011-2015')
     print(f'{op2} CLONE 2009-2010')
     print(f'{op0} {G}CONTACT DEVELOPER')
@@ -280,3 +281,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
