@@ -71,7 +71,7 @@ year = datetime.now().year
 date_and_year = f"{str(date)}\x1b[1;90m-\x1b[1;92m{str(month)}\x1b[1;90m-\x1b[1;92m{str(year)}"
 
 
-        os.system('cls')
+        
     def linex():print(Panel(f'''[bold Pink]   
 ██████╗ ███████╗██╗   ██╗██╗
 ██╔══██╗██╔════╝██║   ██║██║
@@ -279,6 +279,7 @@ def linex():
 if __name__ == '__main__':
 
     main()
+
 
 
 
