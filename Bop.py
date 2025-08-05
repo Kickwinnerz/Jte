@@ -242,7 +242,6 @@ def login(uid):
         time.sleep(5)
 
 def linex():
-    linex()
     print(f'{op1} CLONE 2011-2015')
     print(f'{op2} CLONE 2009-2010')
     print(f'{op0} {G}CONTACT DEVELOPER')
@@ -280,4 +279,5 @@ def linex():
 if __name__ == '__main__':
 
     main()
+
 
