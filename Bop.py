@@ -241,14 +241,14 @@ def login(uid):
     except Exception as e:
         time.sleep(5)
 
-def main():
+def linex():
     linex()
     print(f'{op1} CLONE 2011-2015')
     print(f'{op2} CLONE 2009-2010')
     print(f'{op0} {G}CONTACT DEVELOPER')
     line()
     choice = input(f'{ch} Select : ')
-    linex()
+    
     if choice in ('1', '01'):
         DEVI = '100000'
     else:
@@ -280,3 +280,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
